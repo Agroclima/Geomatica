@@ -1,28 +1,9 @@
-<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Readme</title>
-  <style>
-.selector{color:red;}
-.heading{
-background-color:#D8E0E2;
-background-repeat:repeat-x;
-border-bottom:1px solid #FFFFFF;
-border-top:1px solid #FFFFFF;
-color:black;
-font-family:Verdana,Arial,Helvetica,sans-serif;
-font-size:16px;
-font-weight:bold;
-letter-spacing:1.1px;
-margin:15px 0 10px;
-padding:3px 10px;
-text-align:center;
-}
-  </style>
-
- </head>
+</head>
 
 <body>
 <h3>Deploy the app</h3>
