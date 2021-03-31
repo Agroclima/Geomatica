@@ -176,7 +176,6 @@ define([
               });
             } 
           }
-          
         },
 
         _onClickSelectFields: function () {
