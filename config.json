@@ -24,7 +24,7 @@
   "title": "Aplicación PAM \"Programa de Aseguramiento de Madurez\"",
   "subtitle": "Comité del Kiwi - FDF",
   "keepAppState": true,
-  "logo": "images/logo.jpeg",
+  "logo": "images/logo.png",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
   "links": [],
   "widgetOnScreen": {
@@ -185,7 +185,6 @@
       },
       {
         "uri": "widgets/Splash/Widget",
-        "visible": false,
         "position": {
           "relativeTo": "browser"
         },
@@ -226,8 +225,7 @@
         },
         "version": "2.16",
         "id": "widgets_FullScreen_Widget_17",
-        "name": "FullScreen",
-        "config": null
+        "name": "FullScreen"
       }
     ],
     "panel": {
