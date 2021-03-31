@@ -1,0 +1,16 @@
+{
+  "name": "DescargaCapas",
+  "platform": "HTML",
+  "version": "1.0",
+  "wabVersion": "1.0",
+  "author": "Fredys Barrera Artiaga <fredy.barrera.a@gmail.com>",
+  "description": "Widget que permite la descarga de capas desde arcgis online.",
+  "copyright": "Copyright © 2021 Esri. All Rights Reserved.",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "hasConfig": true,
+    "hasStyle": true,
+    "hasLocale": false,
+    "hasSettingPage": false
+  }
+}

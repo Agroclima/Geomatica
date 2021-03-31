@@ -1,0 +1,37 @@
+<div id="contenedor-download-service" class="container">
+  <div id="main-container"></div>
+  <div class="identify-tab-node" data-dojo-attach-point="tabNode1">
+    <div id="login-active"style="margin-left: 20px;">
+      <div class="col-md-8 float-md-left">
+        <label id="lbl-usuario"></label>
+      </div>
+    </div>
+    <div id="contenido" style="margin-left: 32px;">
+      <div class="input-group" style="width: 96%;" >
+        <input type="text" id="search" autocomplete="off" class="form-control" data-dojo-attach-event="onkeyup:_search" placeholder="Buscar..." style="width: 50%!important;"></input>
+        <button type="button" data-dojo-attach-event="onclick:_onClickClear" class="btn btn-sm bg-transparent" style="margin-left: -40px; z-index: 100;" title="Limpiar búsqueda">x</button>
+      </div>
+      <div id="listado-capas" class="mb-2"></div>
+      <div class="col text-center">
+        <button type="button" id="btn-descarga" class="btn btn-sm btn-success" data-dojo-attach-event="onclick:_onClickDownload" title="Iniciar proceso de descarga de las capas seleccionadas.">Exportar a Excel</button>
+      </div>
+    </div>
+    <div id="loading-contenido" style="margin-bottom: 15px; display: none;">
+      <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="identify-tab-node" data-dojo-attach-point="tabNode2">
+    <div class="col text-center mb-2">
+      <button type="button" id="btnSelectFields" class="btn btn-sm btn-primary" data-dojo-attach-event="onclick:_onClickSelectFields">Seleccionar entidades</button>
+      <button type="button" id="btnClearSelectedFields" class="btn btn-sm btn-warning" data-dojo-attach-event="onclick:_onClickClearSelectedFields">Limpiar selección</button>
+    </div>
+    <div class="col text-center mb-2">
+      <div id="txt-selected" class="mt-4 mb-3" style="font-size: 18px;font-weight: bold;">0 entidades seleccionadas</div>
+      <button type="button" id="btnDownloadSelected" class="btn btn-sm btn-success" data-dojo-attach-event="onclick:_onClickDownloadSelected">Descargar seleccionadas</button>
+    </div>
+  </div>
+</div>
